@@ -8950,7 +8950,7 @@ exports['default'] = {
 };
 },{"./aes":22,"./async-stream":23,"pkcs7":28}],25:[function(require,module,exports){
 /**
- * @file index.js
+ * @file index_01.js
  *
  * Index module to easily import the primary components of AES-128
  * decryption. Like this:
@@ -9293,7 +9293,7 @@ module.exports = {
   ParseStream: _parseStream2['default'],
   Parser: _parser2['default']
 }; /**
-    * @file m3u8/index.js
+    * @file m3u8/index_01.js
     *
     * Utilities for parsing M3U8 files. If the entire manifest is available,
     * `Parser` will create an object representation with enough detail for managing
