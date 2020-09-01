@@ -20,9 +20,10 @@ module.exports = {
 
       },
       '/api/cms': {
-        target: 'http://localhost:31001',
+        //target: 'http://localhost:31001',
+        target: 'http://129.211.15.108:31001',
         pathRewrite: {
-          '^/api': '' //该方式表示实际请求去掉/api
+          '^/api': ''
         }
         //target: 'http://127.0.0.1:50201'
 

@@ -62,8 +62,8 @@
       style="float:right"
     >
     </el-pagination>
-    <router‐link 
-    class="mui‐tab‐item" 
+    <router-link 
+    class="mui-tab-item" 
     :to="{
         path:'/cms/page/add/',
         query:{
@@ -72,8 +72,8 @@
         }
       }"
     >
-      <el‐button type="primary" size="small">新增页面</el‐button>
-    </router‐link>
+      <el-button type="primary" size="small">新增页面</el-button>
+    </router-link>
   </div>
 </template>
 
